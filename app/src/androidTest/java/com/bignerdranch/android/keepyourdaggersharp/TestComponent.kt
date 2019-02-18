@@ -12,5 +12,5 @@ import dagger.android.support.AndroidSupportInjectionModule
 ])
 interface TestComponent : AndroidInjector<NerdApplication> {
     @Component.Builder
-    abstract class Builder: AndroidInjector.Builder<NerdApplication>()
+    abstract class Builder : AndroidInjector.Builder<NerdApplication>()
 }
