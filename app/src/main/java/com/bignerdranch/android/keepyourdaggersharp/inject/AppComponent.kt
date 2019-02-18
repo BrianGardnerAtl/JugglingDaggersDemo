@@ -14,5 +14,5 @@ import javax.inject.Singleton
 ])
 interface AppComponent : AndroidInjector<NerdApplication> {
     @Component.Builder
-    abstract class Builder: AndroidInjector.Builder<NerdApplication>()
+    abstract class Builder : AndroidInjector.Builder<NerdApplication>()
 }
