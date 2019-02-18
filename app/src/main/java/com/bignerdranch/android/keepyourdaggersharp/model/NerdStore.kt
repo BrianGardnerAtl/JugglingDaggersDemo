@@ -1,5 +1,5 @@
 package com.bignerdranch.android.keepyourdaggersharp.model
 
 interface NerdStore {
-    fun getNerds(): List<Nerd>
+    val nerds: List<Nerd>
 }

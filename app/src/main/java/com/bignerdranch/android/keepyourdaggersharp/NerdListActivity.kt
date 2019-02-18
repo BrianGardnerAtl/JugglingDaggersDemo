@@ -14,7 +14,7 @@ class NerdListActivity : DaggerAppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_nerd_list)
-        for(nerd in nerdStore.getNerds()) {
+        for(nerd in nerdStore.nerds) {
             Log.d("NerdListActivity", "Have nerd $nerd")
         }
     }
